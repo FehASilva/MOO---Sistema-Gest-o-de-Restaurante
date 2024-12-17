@@ -23,6 +23,7 @@ Os seguintes casos de uso foram implementados no sistema:
 Para compilar e executar o sistema, siga os passos abaixo:
 
 ```bash
+cd SistemaRestaurante
 mkdir build
 cd build
 cmake ..
