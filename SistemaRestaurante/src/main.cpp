@@ -1,6 +1,8 @@
 #include <iostream>
 #include "usecases/VerCardapio.hpp"
 #include "usecases/FazerPedido.hpp"
+#include "usecases/FazerReserva.hpp"
+#include "usecases/ConsultaReserva.hpp"
 
 int main() {
     int escolha;
@@ -19,18 +21,16 @@ int main() {
 
         switch (escolha) {
             case 1:
-                //
                 VerCardapio();
                 break;
             case 2:
-                //
                 FazerPedido();
                 break;
             case 3:
-                //
+                fazerReserva();
                 break;
             case 4:
-                //
+                realizarConsultaReserva();
                 break;
             case 0:
                 std::cout << "Saindo do sistema. Até logo!\n";
