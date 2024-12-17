@@ -18,6 +18,10 @@ public:
     // Lista os itens e seus preços no console
     void listarItens() const;
     std::string operator[](int index) const;  // Retorna o nome do item
+
+    const std::vector<Item>& getItens() const {
+        return itens;
+    }
 };
 
 #endif // CARDAPIO_HPP

@@ -9,6 +9,7 @@ public:
     std::string nome;
     std::string receita;
     std::vector<std::string> informacaoNutricional;
+    bool disponivel;
 
     Item(const std::string& nome, const std::string& receita, const std::vector<std::string>& info);
 

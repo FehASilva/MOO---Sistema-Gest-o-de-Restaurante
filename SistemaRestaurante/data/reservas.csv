@@ -3,3 +3,4 @@ idReserva,nomeCliente,quantidadePessoas,dataHora,status
 3,João,3,2024-12-23 20:00,true
 4,Maria,4,2024-12-23 21:00,true
 5,Maria,2,2024-12-18 12:30,true
+6,João,4,2024-12-18 19:30,true
