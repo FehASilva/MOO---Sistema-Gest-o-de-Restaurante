@@ -32,10 +32,20 @@ bool Cliente::solicitarReserva(const std::string& nome) {
 }
 
 std::vector<std::string> Cliente::solicitarConsultaReserva(const std::string& nome) {
-    // Lógica para consultar reservas
-    std::vector<std::string> reservas;
-    // Retorna um vetor de reservas fictícias para exemplo
-    reservas.push_back("Reserva 1");
-    reservas.push_back("Reserva 2");
-    return reservas;
+    // Carregar todas as reservas do arquivo reservas.csv
+    auto reservas = Database::loadCSV("../data/reservas.csv");
+
+    std::vector<std::string> reservasDoCliente;
+    
+    // Buscar as reservas feitas pelo cliente
+    for (const auto& reserva : reservas) {
+        if (reserva.size() >= 5 && reserva[1] == nome && reserva[4] == "true") {
+            std::string reservaInfo = "Reserva ID: " + reserva[0] + " | " 
+                                    + "Data/Hora: " + reserva[3] + " | " 
+                                    + "Pessoas: " + reserva[2];
+            reservasDoCliente.push_back(reservaInfo);
+        }
+    }
+
+    return reservasDoCliente;  // Retorna as reservas encontradas
 }
