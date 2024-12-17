@@ -33,6 +33,9 @@ make
 ## Contato
 Para dúvidas ou sugestões, entre em contato com os desenvolvedores:
 &nbsp;&nbsp;&nbsp;[Carlos Henrique Hannas de Carvalho]() (11965988)
+
 &nbsp;&nbsp;&nbsp;[Felipe Aparecido da Silva](https://github.com/FehASilva) (11954502)
+
 &nbsp;&nbsp;&nbsp;[Karine Cerqueira Nascimento](https://github.com/KarineCerqueira) (13718404)
+
 &nbsp;&nbsp;&nbsp;[Marcus Vinicius da Silva]() (13833150)
