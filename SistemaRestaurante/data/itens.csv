@@ -1,0 +1,6 @@
+Nome,Preço,Receita,Informacao1,Informacao2,Informacao3,Disponivel
+Pizza Margherita,25.50,"Molho de tomate, queijo, manjericão","Calorias: 300","Proteínas: 12g","Carboidratos: 33g",true
+Lasanha,30.00,"Massa, carne moída, molho branco","Calorias: 400","Proteínas: 15g","Carboidratos: 50g",true
+Hambúrguer,15.00,"Carne, queijo, alface, tomate, pão","Calorias: 500","Proteínas: 20g","Carboidratos: 45g",false
+Spaghetti à Carbonara,28.00,"Massa, ovos, bacon, queijo parmesão","Calorias: 600","Proteínas: 25g","Carboidratos: 60g",true
+Salada Caesar,18.00,"Alface, frango grelhado, croutons, molho Caesar","Calorias: 250","Proteínas: 20g","Carboidratos: 15g",false
