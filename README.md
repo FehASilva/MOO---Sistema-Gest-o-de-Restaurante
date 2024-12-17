@@ -17,6 +17,7 @@ Caso de uso específicos foram implementados, conforme listado abaixo:
 
 
 ```
+mkdir build
 cd build
 cmake ..
 make
